@@ -6,6 +6,7 @@ import (
 	"github.com/spf13/cobra"
 )
 
+// Cobras rootCmd
 var rootCmd = &cobra.Command{
 	Use:   "swix",
 	Short: "Cybersecurity Swiss Army knife.",
